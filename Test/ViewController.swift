@@ -177,6 +177,7 @@ class ViewController: UIViewController {
                     }
             }) { (value: HeartRateMeasurementResponse) in
                 self.hrmRateLabel.text = String(value.value)
+                self.hrmRateLabel.backgroundColor = UIColor.random
                 self.startListenButton.isSelected = true
                 self.startListenButton.isEnabled = true
             }
@@ -198,3 +199,11 @@ class ViewController: UIViewController {
     }
 }
 
+extension UIColor {
+    static var random: UIColor {
+        return UIColor(red: .random(in: 0...1),
+                     green: .random(in: 0...1),
+                     blue: .random(in: 0...1),
+                    alpha: 1)
+    }
+}
