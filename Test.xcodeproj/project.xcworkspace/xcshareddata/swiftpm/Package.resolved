@@ -9,6 +9,15 @@
           "revision": "1562143edfff49513ed2cb453d7aaf2c9756e631",
           "version": "0.11.1"
         }
+      },
+      {
+        "package": "LittleBlueTooth",
+        "repositoryURL": "https://github.com/DrAma999/LittleBlueTooth.git",
+        "state": {
+          "branch": null,
+          "revision": "3f6951af592faa0b6a3d47ac631bbac7458f2133",
+          "version": "0.5.0"
+        }
       }
     ]
   },

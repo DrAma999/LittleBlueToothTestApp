@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6559F6B924BF97A20035FF4A /* LittleBlueTooth in Frameworks */ = {isa = PBXBuildFile; productRef = 6559F6B824BF97A20035FF4A /* LittleBlueTooth */; };
+		65061A7424FABE170081EAAB /* LittleBlueTooth in Frameworks */ = {isa = PBXBuildFile; productRef = 65061A7324FABE170081EAAB /* LittleBlueTooth */; };
 		65869A382492893200A00906 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65869A372492893200A00906 /* AppDelegate.swift */; };
 		65869A3A2492893200A00906 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65869A392492893200A00906 /* SceneDelegate.swift */; };
 		65869A3C2492893200A00906 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65869A3B2492893200A00906 /* ViewController.swift */; };
@@ -42,7 +42,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6559F6B724BF97820035FF4A /* LittleBlueTooth */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LittleBlueTooth; path = ../../../Documents/GitHub/LittleBlueTooth; sourceTree = "<group>"; };
 		65869A342492893200A00906 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65869A372492893200A00906 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65869A392492893200A00906 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6559F6B924BF97A20035FF4A /* LittleBlueTooth in Frameworks */,
+				65061A7424FABE170081EAAB /* LittleBlueTooth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +78,6 @@
 		65869A2B2492893200A00906 = {
 			isa = PBXGroup;
 			children = (
-				6559F6B724BF97820035FF4A /* LittleBlueTooth */,
 				65869A362492893200A00906 /* Test */,
 				65869A4D2492893300A00906 /* TestTests */,
 				65869A352492893200A00906 /* Products */,
@@ -145,7 +143,7 @@
 			);
 			name = Test;
 			packageProductDependencies = (
-				6559F6B824BF97A20035FF4A /* LittleBlueTooth */,
+				65061A7324FABE170081EAAB /* LittleBlueTooth */,
 			);
 			productName = Test;
 			productReference = 65869A342492893200A00906 /* Test.app */;
@@ -198,6 +196,7 @@
 			);
 			mainGroup = 65869A2B2492893200A00906;
 			packageReferences = (
+				65061A7224FABE170081EAAB /* XCRemoteSwiftPackageReference "LittleBlueTooth" */,
 			);
 			productRefGroup = 65869A352492893200A00906 /* Products */;
 			projectDirPath = "";
@@ -505,9 +504,21 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		65061A7224FABE170081EAAB /* XCRemoteSwiftPackageReference "LittleBlueTooth" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DrAma999/LittleBlueTooth.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		6559F6B824BF97A20035FF4A /* LittleBlueTooth */ = {
+		65061A7324FABE170081EAAB /* LittleBlueTooth */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 65061A7224FABE170081EAAB /* XCRemoteSwiftPackageReference "LittleBlueTooth" */;
 			productName = LittleBlueTooth;
 		};
 /* End XCSwiftPackageProductDependency section */
