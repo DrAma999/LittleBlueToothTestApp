@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/NordicSemiconductor/IOS-CoreBluetooth-Mock.git",
         "state": {
           "branch": null,
-          "revision": "1562143edfff49513ed2cb453d7aaf2c9756e631",
-          "version": "0.11.1"
+          "revision": "360ba1f26a99e5f90a0197bfa173b19c5c948ea2",
+          "version": "0.12.1"
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/DrAma999/LittleBlueTooth.git",
         "state": {
           "branch": null,
-          "revision": "3f6951af592faa0b6a3d47ac631bbac7458f2133",
-          "version": "0.5.0"
+          "revision": "9149d715984f98860536c027e4ea9845adfc3c06",
+          "version": "0.6.9"
         }
       }
     ]
